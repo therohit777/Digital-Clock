@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(16, 245, 233);
+    background-image: url("https://source.unsplash.com/weekly?star sky") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.cont{
+    background-color: rgba(22, 19, 19, 0.795);
+    color: white;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 25vw;
+    width: 40vw;
+    font-size: 2.5vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:15vw 30vw;
+}
+
+
+#time{
+    color: red;
+}
+#headi{
+    font-size: 3vw;
+    padding-bottom: 35px;
+}
